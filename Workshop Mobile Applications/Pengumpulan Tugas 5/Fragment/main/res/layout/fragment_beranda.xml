@@ -18,13 +18,15 @@
         android:fontFamily="sans-serif"
         android:textStyle="bold"
         android:textColor="@color/black"
-        android:textSize="30sp" />
+        android:textSize="30sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="300dp"
         android:layout_height="300dp"
-        android:layout_marginLeft="10dp"
+        android:layout_marginLeft="50dp"
         android:layout_marginRight="50dp"
         android:src="@drawable/cuapi" />
 
@@ -33,7 +35,7 @@
         android:layout_width="302dp"
         android:layout_height="71dp"
         android:layout_alignBottom="@+id/imageView"
-        android:layout_marginLeft="10dp"
+        android:layout_marginLeft="50dp"
         android:layout_marginBottom="1dp"
         android:fontFamily="sans-serif"
         android:text="Selamat datang di Beranda Cuapi Milk, Cuapi Milk adalah minuman
@@ -51,7 +53,7 @@ yang terbuat dari susu sapi murni yang di rawat seperti anak sendiri, yuk kepoin
         android:layout_marginRight="-1dp"
         android:layout_marginBottom="-49dp"
         android:backgroundTint="@color/blue"
-        android:text="Pelajari lebih lanjut" />
+        android:text="Selengkapnya" />
 
 
 </RelativeLayout>

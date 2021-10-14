@@ -15,7 +15,9 @@
         android:text="Beli"
         android:textColor="@color/black"
         android:textSize="30sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
 
     <ImageView
         android:id="@+id/imageView"
@@ -31,7 +33,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignBottom="@+id/imageView"
-        android:layout_marginLeft="40dp"
+        android:layout_marginLeft="100dp"
         android:layout_marginBottom="3dp"
         android:text="Cuapi Milk All Variant"
         android:textColor="@color/black"
@@ -42,11 +44,11 @@
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="@color/blue"
-        android:layout_marginLeft="40dp"
-        android:layout_marginBottom="3dp"
+        android:layout_marginLeft="130dp"
         android:layout_marginTop="300dp"
         android:layout_marginRight="50dp"
+        android:layout_marginBottom="3dp"
+        android:backgroundTint="@color/blue"
         android:text="Lihat List Menu" />
 
 
