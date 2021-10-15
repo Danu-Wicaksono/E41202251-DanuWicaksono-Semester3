@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="16dp"
+    android:background="@drawable/map"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SELAMAT DATANG"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="30dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mau Kemana Hari Ini?"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        />
+
+    <EditText
+        android:id="@+id/et_lokasi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ketik Lokasi"
+        android:textColor="@color/white"
+        />
+
+    <Button
+        android:id="@+id/btn_lokasi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cari Lokasi"
+        />
+
+</LinearLayout>
